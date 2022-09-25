@@ -1,0 +1,37 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(24, 93, 196);
+
+    & input {
+        padding: 5px;
+        border-radius: 5px;
+        border-style: none;
+    }
+
+    & button {
+        padding: 5px;
+        border-radius: 5px;
+        border-style: none;
+        margin-left: 10px;
+    }
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+
+    & .photo-card {
+        width: calc((100% - 80px)/4);
+        margin: 10px;
+
+    }
+}
